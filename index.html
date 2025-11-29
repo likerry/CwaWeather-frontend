@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>森森天氣</title>
+  <title>外出氣象站</title>
   <link rel="icon" type="image/png" href="./icon-v2.png">
   <link rel="apple-touch-icon" href="./icon-v2.png">
   <link rel="apple-touch-icon" sizes="180x180" href="./icon-v2.png">
@@ -52,6 +52,13 @@
       position: sticky;
       top: 0;
       z-index: 100;
+    }
+
+    .site-title {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--ac-brown);
+      text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
     }
 
     .update-pill {
@@ -323,6 +330,7 @@
     <p style="color: white; font-weight: bold; margin-top: 20px;">正在觀測雲的流動...</p>
   </div>
   <div class="status-bar">
+    <div class="site-title">外出氣象站</div>
     <div id="updateTime" class="update-pill">更新中...</div>
   </div>
 
